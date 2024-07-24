@@ -18,11 +18,11 @@ const Hero = () => {
         <main style={bgImage}>
             <div className="bg-gradient-to-r from-primary to bg-primaryDark/90">
                 <div className="container text-white">
-                    {/* Navbar components here */}
+                    {/* Componentes de la barra de navegación aquí */}
                     <Navbar />
-                    {/* Hero section here */}
+                    {/* Sección de héroe aquí */}
                     <section className="grid grid-cols-1 md:grid-cols-2 place-items-center min-h-[800px]">
-                        {/* Text content section */}
+                        {/* Sección de contenido de texto */}
                         <div className="space-y-8 mt-[100px] md:mt-[20px]">
                             <motion.div
                                 initial={{ opacity: 0, y: -100 }}
@@ -47,7 +47,7 @@ const Hero = () => {
                                 </button>
                                 </motion.div>
 
-                                {/* feactures section here */}
+                                {/* sección de características aquí */}
                                 <motion.div
                                 initial={{ opacity: 0, y: -100 }}
                                 whileInView={{ opacity:1, y: 0 }}
@@ -58,14 +58,14 @@ const Hero = () => {
                                     delay:1.2,
                                     duration: 0.4,
                                 }}
-                                className="bg-black/40 p-6 space-y-2 lg:mx-w-[350px] !mt-[60px]">
+                                className="bg-black/40 p-6 space-y-2 lg:max-w-[350px] !mt-[60px]">
                                     <h1 className="text-xl uppercase">Vehicle feactures</h1>
                                     <p className="text-sx leading-loose">
                                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel excepturi nemo similique cum blanditiis totam adipisci reiciendis, facere consequatur iste.
                                     </p>
                                 </motion.div>
                         </div>
-                        {/* Image Section */}
+                        {/* Sección de imagen */}
                         <div className="relative">
                             <motion.img
                                 initial={{ opacity: 0, x: 200 }}
@@ -74,7 +74,7 @@ const Hero = () => {
                                     duration: 1,
                                 }}
                             src={CarPng} alt="" className="w-full relative z-30" />
-                            {/* glowing cicle */}
+                            {/* círculo brillante */}
                             <motion.div
                                 initial={{ opacity: 0, y: 0, scale: 0.5 }}
                                 whileInView={{ opacity:1, y: 0, scale:1 }}
@@ -87,7 +87,7 @@ const Hero = () => {
                                 }}
                             className="border-[20px] border-cyan-200 rounded-full h-[180px] w-[180px] md:h-[300px] md:w-[300px]  absolute top-0 left-1/2 glowind-shadow">
                             </motion.div>
-                            {/* bg text here */}
+                            {/* texto grande aquí */}
                             <motion.div
                                 initial={{ opacity: 0, x: -100 }}
                                 whileInView={{ opacity:1, x: 0 }}

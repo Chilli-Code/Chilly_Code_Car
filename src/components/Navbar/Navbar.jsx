@@ -33,11 +33,11 @@ const Navbar = () => {
         whileInView={{opacity:1}}
         className="container">
             <div className="flex justify-between items-center">
-                {/* Logo section */}
+                {/* Sección de logotipo */}
                 <div>
                     <img src={Logo} alt="" className="w-[80px] invert" />
                 </div>
-                {/* Nav Menu section */}
+                {/* Sección del menú de navegación */}
                 <div className="hidden md:block">
                     <ul className="flex gap-4">
                     {NavMenu.map((menu) => (
@@ -47,7 +47,7 @@ const Navbar = () => {
                     ))}
                     </ul>
                 </div>
-                {/* Hamburger menu */}
+                {/* Menú de hamburguesas */}
                 <div className="flex items-center gap-6">
                     <div className="rounded-icons">
                         <GiHamburgerMenu className="text-xl" />
